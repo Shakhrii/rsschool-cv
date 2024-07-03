@@ -2,13 +2,12 @@
 
 
 ## Contacts
-**email:** ramaldanova_sh@mail.ru
-**telegram:** [Shakhrii](http://t.me/Shakhrii)
-**discord:** shakhrii
-**github:** [Shakhrii] (https://github.com/Shakhrii)
+* **email:** ramaldanova_sh@mail.ru
+* **telegram:** [Shakhrii](http://t.me/Shakhrii)
+* **discord:** shakhrii
+* **github:** [Shakhrii](https://github.com/Shakhrii)
 
 ## About me
-
 I would like to be a front-end developer and work for a big company. I've had experience in developing. I used to develop android applications and now I am more interested in web developing. 
 
 
