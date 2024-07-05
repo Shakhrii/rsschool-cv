@@ -97,7 +97,7 @@ html {
   .right_side {
     width: 60%;
     background-color: #ffffff;
-    padding: 100px 50px;
+    padding: 40px 50px;
   }
 
   h1 {
@@ -144,6 +144,13 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .list {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
 
   .information_contact-title {
