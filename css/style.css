@@ -1,5 +1,43 @@
+@font-face {
+  font-family: 'Roboto-Bold', sans-serif;
+  src: url(../fonts/Roboto-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+} 
+
+@font-face {
+  font-family: 'Roboto-Medium', sans-serif;
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+} 
+
+@font-face {
+  font-family: 'Roboto-Regular', sans-serif;
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+} 
+
+@font-face {
+  font-family: 'Roboto-Light', sans-serif;
+  src: url(../fonts/Roboto-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+} 
+
+@font-face {
+  font-family: 'Roboto-Thin', sans-serif;
+  src: url(../fonts/Roboto-Thin.ttf);
+  font-style: normal;
+  font-weight: 100;
+} 
+
 html {
     box-sizing: border-box;
+    color: #555555;
+    font-family: 'Roboto';
+    font-weight: 400;
   }
   
   *,
@@ -32,6 +70,73 @@ html {
     align-items: center;
     height: 50px;
     background-color: #7f807e;
-    padding: 0 30px;
+    padding: 0 50px;
     color: #ffffff;
+  }
+
+  .information {
+    display: flex;
+  }
+
+  .left_side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    background-color: #f5f5f4;
+    padding: 100px 50px;
+  }
+
+  .information_photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    clip-path: circle();
+  }
+  .right_side {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 100px 50px;
+  }
+
+  h1 {
+    margin: 50px 0 5px 0;
+
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .line {
+    width: 300px;
+    height: 1px;
+    background-color: #7f807e;
+  }
+
+  .sub_title {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #7f807e;
+
+    margin-bottom: 8px;
+  }
+
+  .left_side-profession {
+    margin-top: 15px;
+
+    text-transform: uppercase;
+    color: #a6a6a6
+  }
+
+  .information_contact {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .information_contact-title {
+    
   }
