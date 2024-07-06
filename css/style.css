@@ -39,6 +39,7 @@ html {
     font-family: 'Roboto';
     font-weight: 400;
     color: #a6a6a6;
+    background-color: #e4cec0;
   }
   
   *,
@@ -222,10 +223,18 @@ html {
     margin-top: 5px;
   }
 
-  .code-examples__description {
+  .subtitle__description {
     margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .code-examples__preview {
     background-color: #f5f5f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .skills__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
