@@ -11,40 +11,40 @@
     <header class="container">
         <nav class="nav">
             <ul class="menu">
-                <li class="menu__list"><a href="#" class="menu__link">ABOUT ME</a></li>
-                <li class="menu__list"><a href="#" class="menu__link">SKILLS</a></li>
-                <li class="menu__list"><a href="#" class="menu__link">CODE EXAMPLE</a></li>
-                <li class="menu__list"><a href="#" class="menu__link">PROJECTS</a></li>
-                <li class="menu__list"><a href="#" class="menu__link">EDUCATION</a></li>
-                <li class="menu__list"><a href="#" class="menu__link">LANGUAGES</a></li>
-                <li class="menu__list"><a href="#" class="menu__link">CONTACTS</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">about me</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">skills</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">code example</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">projects</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">education</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">languages</a></li>
+                <li class="menu__list"><a href="#" class="menu__link">contacts</a></li>
               </ul>
         </nav>
     </header>
     <main class="container">
         <div class="information">
-            <section class="left_side">
-                <img class="information_photo" src="images/photo.jpg">
+            <section class="left-side">
+                <img class="information__photo" src="images/photo.jpg">
                 <h1>Shakhperi <br> Ramaldanova</h1>
                 <div class="line"></div>
-                <p class="left_side-profession">Future Frontend Developer</p>
+                <p class="information__profession">Future Frontend Developer</p>
                 
-                <article class="information_contact">
-                    <h2 class="information_contact-title sub_title">Contact</h2>
+                <article class="contact information__article">
+                    <h2 class="contact__title subtitle">Contact</h2>
                     <div class="line"></div>
-                    <ul class="contact_list list">
-                        <li class="contact_item_phone contact_item">+7 963 421 17 71</li>
-                        <li class="contact_item_mail contact_item">ramaldanova_sh@mail.ru</li>
-                        <li class="contact_item_discord contact_item">Shakhrii</li>
-                        <li class="contact_item_github contact_item">Shakhrii</li>
-                        <li class="contact_item_telegram contact_item">Shakhrii</li>
+                    <ul class="contact__list list">
+                        <li class="contact__phone contact__item">+7 963 421 17 71</li>
+                        <li class="contact__mail contact__item">ramaldanova_sh@mail.ru</li>
+                        <li class="contact__discord contact__item">Shakhrii</li>
+                        <li class="contact__github contact__item">Shakhrii</li>
+                        <li class="contact__telegram contact__item">Shakhrii</li>
                     </ul>
 
                 </article>
-                <article class="information_about_me information_article">
-                    <h2 class="about_me-title sub_title">About me</h2>
+                <article class="about-me information__article">
+                    <h2 class="about-me__title subtitle">About me</h2>
                     <div class="line"></div>
-                    <p class="about_me_description">I would like to be a front-end developer and work for a big company.
+                    <p class="about-me__description">I would like to be a front-end developer and work for a big company.
                          I've had experience in developing. I used to develop android applications and now I am more interested 
                          in web developing. I would like to be a front-end developer and work for a big company.
                          I've had experience in developing. I used to develop android applications and now I am more interested 
@@ -52,20 +52,20 @@
                 </article>
             </section>
 
-            <section class="right_side">
-                <article class="information_education information_article">
-                    <h2 class="information_education-title sub_title">Education</h2>
+            <section class="right-side">
+                <article class="education information__article">
+                    <h2 class="education__title subtitle">Education</h2>
                     <div class="line"></div>
-                    <ul class="education_list list">
-                        <li>Dagestan State University 2009-2014<p class="education_item-description">Graduated from a specialty and received the profession of a system programmer</p></li></li>
-                        <li>Rolling School Pre Frontend Course 2024<p class="education_item-description">I am currently studying this course at Stage 0</p></li></li>
+                    <ul class="education__list list">
+                        <li>Dagestan State University 2009-2014<p class="item__description">Graduated from a specialty and received the profession of a system programmer</p></li></li>
+                        <li>Rolling School Pre Frontend Course 2024<p class="item__description">I am currently studying this course at Stage 0</p></li></li>
                     </ul>
 
                 </article>
-                <article class="information_skills information_article">
-                    <h2 class="skills-title sub_title">Skills</h2>
+                <article class="skills information__article">
+                    <h2 class="skills__title subtitle">Skills</h2>
                     <div class="line"></div>
-                    <ul class="skills_list list">
+                    <ul class="skills__list list">
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -75,18 +75,33 @@
                     </ul>
                 </article>
 
-                <article class="information_code information_article">
-                    <h2 class="code-title sub_title">Code example</h2>
+                <article class="code-examples information__article">
+                    <h2 class="code-examples__title subtitle">Code example</h2>
                     <div class="line"></div>
-                    <p class="code_description">This function calculates whether the square root of the entered number is an integer</p>
-                    <xmp class="code_preview">
+                    <p class="code-examples__description">This function calculates whether the square root of the entered number is an integer</p>
+                    <xmp class="code-examples__preview">
                         var isSquare = function(n) {
                             if (Math.sqrt(n) %  1 == 0) 
                               return true;
                             return false; 
                         }                          
                     </xmp>
-                     
+                </article>
+
+                <article class="projects information__article">
+                    <h2 class="projects__title subtitle">Projects</h2>
+                    <div class="line"></div>
+                    <p class="code-examples__description">This project is my current CV</p>
+                    <img src="">
+                </article>
+
+                <article class="languages information__article">
+                    <h2 class="code-examples__title subtitle">Languages</h2>
+                    <div class="line"></div>
+                    <ul class="languages__list list">
+                        <li>English<p class="item__description">Level B1</p></li>
+                        <li>Russian<p class="item__description">Native</p></li>
+                    </ul>
                 </article>
             </section>
 

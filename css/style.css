@@ -73,13 +73,16 @@ html {
     background-color: #7f807e;
     padding: 0 50px;
     color: #ffffff;
-  }
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+   }
 
   .information {
     display: flex;
   }
 
-  .left_side {
+  .left-side {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,13 +91,13 @@ html {
     padding: 80px 50px;
   }
 
-  .information_photo {
+  .information__photo {
     width: 300px;
     height: 300px;
     object-fit: cover;
     clip-path: circle();
   }
-  .right_side {
+  .right-side {
     width: 60%;
     background-color: #ffffff;
     padding: 40px 150px;
@@ -116,7 +119,7 @@ html {
     background-color: #7f807e;
   }
 
-  .sub_title {
+  .subtitle {
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 400;
@@ -125,21 +128,21 @@ html {
     margin-bottom: 8px;
   }
 
-  .left_side-profession {
+  .information__profession {
     margin-top: 15px;
 
     text-transform: uppercase;
     color: #a6a6a6
   }
 
-  .information_contact {
+  .information__contact {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .information_article {
+  .information__article {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -156,73 +159,73 @@ html {
     width: 100%;
   }
 
-  .information_contact-title {
+  .contact__title {
     
   }
 
-  .contact_list {
+  .contact__list {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
   }
 
-  .contact_item {
+  .contact__item {
     display: flex;
     align-items: center;
   }
 
-  .contact_item_phone::before {
+  .contact__phone::before {
     content: url('../images/icons/phone.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .contact_item_mail::before {
+  .contact__mail::before {
     content: url('../images/icons/mail.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .contact_item_telegram::before {
+  .contact__telegram::before {
     content: url('../images/icons/github.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .contact_item_github::before {
+  .contact__github::before {
     content: url('../images/icons/github.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
 
-  .contact_item_discord::before {
+  .contact__discord::before {
     content: url('../images/icons/github.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
   }
   
-  .about_me_description {
+  .about-me__description {
     margin-top: 20px;
     line-height: 1.5;
   }
 
-  .education_item-description {
+  .item__description {
     font-size: 14px;
     color: #b7b7b7;
 
     margin-top: 5px;
   }
 
-  .code_description {
+  .code-examples__description {
     margin-top: 20px;
   }
 
-  .code_preview {
+  .code-examples__preview {
     background-color: #f5f5f4;
   }
