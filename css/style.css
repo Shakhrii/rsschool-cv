@@ -176,6 +176,10 @@ html {
     align-items: center;
   }
 
+  .contact__item:hover {
+    color: #727272;
+  }
+
   .contact__phone::before {
     content: url('../images/icons/phone.svg');
     width: 18px;
@@ -229,6 +233,7 @@ html {
   .subtitle__description {
     margin-top: 20px;
     margin-bottom: 10px;
+    align-self: start;
   }
 
   .code-examples__preview {
@@ -260,7 +265,23 @@ html {
     gap: 5px;
   }
 
+  .footer__github:hover {
+    color: #cdcbcb;
+  }
+
   .rsschool-icon {
     height: 50px;
     width: 150px;
+  }
+
+  .menu__link:hover {
+    color: #cdcbcb;
+  }
+
+  .projects__subtitle-description:hover {
+    color: #727272;
+  }  
+
+  .projects__pic {
+
   }
