@@ -178,8 +178,8 @@ html {
 
   .contact__phone::before {
     content: url('../images/icons/phone.svg');
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-right: 10px;
   }
 
@@ -191,10 +191,11 @@ html {
   }
 
   .contact__telegram::before {
-    content: url('../images/icons/github.svg');
+    content: url('../images/icons/telegram.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-left: 2px;
   }
 
   .contact__github::before {
@@ -202,13 +203,15 @@ html {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-left: 2px;
   }
 
   .contact__discord::before {
-    content: url('../images/icons/github.svg');
+    content: url('../images/icons/discord.svg');
     width: 20px;
     height: 20px;
     margin-right: 10px;
+    margin-left: 2px;
   }
   
   .about-me__description {
