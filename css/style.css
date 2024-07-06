@@ -60,9 +60,9 @@ html {
   img {
     max-width: 100%;
   }
+
   .container {
     max-width: 1220px;
-    padding: 0 10px;
     margin: 0 auto;
   }
 
@@ -70,7 +70,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 70px;
     background-color: #7f807e;
     padding: 0 50px;
     color: #ffffff;
@@ -240,4 +240,27 @@ html {
   .skills__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #7f807e;
+    align-items: center;
+    height: 70px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 50px;
+  }
+
+  .footer__github {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .rsschool-icon {
+    height: 50px;
+    width: 150px;
   }
