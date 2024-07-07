@@ -24,11 +24,11 @@
     <main class="container">
         <div class="information">
             <section class="left-side">
-                <img class="information__photo" src="images/photo.jpg">
+                <img class="information__photo" src="images/photo.jpg" alt="My Photo">
                 <h1>Shakhperi <br> Ramaldanova</h1>
                 <div class="line"></div>
-                <p class="information__profession">Future Frontend Developer</p>
-                
+                <p class="information__profession">Junior Frontend Developer</p>
+
                 <article class="contact information__article" id="contacts">
                     <h2 class="contact__title subtitle">Contact</h2>
                     <div class="line"></div>
@@ -44,7 +44,7 @@
                     <h2 class="about-me__title subtitle">About me</h2>
                     <div class="line"></div>
                     <p class="about-me__description">I would like to be a front-end developer and work for a big company.
-                         I've had experience in developing. I used to develop android applications and now I am more interested 
+                         I've had experience in developing. I used to develop android applications and now I am more interested
                          in web developing</p>
                 </article>
             </section>
@@ -54,8 +54,8 @@
                     <h2 class="education__title subtitle">Education</h2>
                     <div class="line"></div>
                     <ul class="education__list list">
-                        <li>Dagestan State University 2009-2014<p class="item__description">Graduated from a specialty and received the profession of a system programmer</p></li></li>
-                        <li>Rolling School JS/FE Pre-School 2024<p class="item__description">I am currently studying this course at Stage 0</p></li></li>
+                        <li>Dagestan State University 2009-2014<p class="item__description">Graduated from a specialty and received the profession of a system programmer</p></li>
+                        <li>Rolling School JS/FE Pre-School 2024<p class="item__description">I am currently studying this course at Stage 0</p></li>
                     </ul>
 
                 </article>
@@ -76,13 +76,15 @@
                     <h2 class="code-examples__title subtitle">Code example</h2>
                     <div class="line"></div>
                     <p class="subtitle__description">This function calculates whether the square root of the entered number is an integer</p>
-                    <xmp class="code-examples__preview">
-                        var isSquare = function(n) {
-                            if (Math.sqrt(n) %  1 == 0) 
-                              return true;
-                            return false; 
-                        }                          
-                    </xmp>
+                    <pre class="code-examples__preview">
+                      <code>
+var isSquare = function(n) {
+    if (Math.sqrt(n) %  1 == 0)
+      return true;
+    return false;
+}
+                        </code>
+                      </pre>
                 </article>
 
                 <article class="projects information__article" id="projects">
@@ -107,12 +109,12 @@
     <footer class="footer container">
         <a href="https://discordapp.com/users/716697508348166266">
             <div class="footer__github">
-                <img src="images/icons/github.svg">
+                <img src="images/icons/github.svg" alt="My GitHub">
                 <span>GitHub</span>
             </div>
         </a>
         <div class="footer__rsschool">
-            <a href="https://rs.school/courses/javascript-preschool-ru"><img class="rsschool-icon" src="images/rsschool.svg"></a>
+            <a href="https://rs.school/courses/javascript-preschool-ru"><img class="rsschool-icon" src="images/rsschool.svg" alt="Rolling School"></a>
         </div>
         <span>2024</span>
     </footer>
