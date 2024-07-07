@@ -180,17 +180,11 @@ html {
     color: #727272;
   }
 
-  .contact__phone::before {
-    content: url('../images/icons/phone.svg');
-    width: 18px;
-    height: 18px;
-    margin-right: 10px;
-  }
-
   .contact__mail::before {
     content: url('../images/icons/mail.svg');
     width: 20px;
     height: 20px;
+    margin-bottom: 2px;
     margin-right: 10px;
   }
 
